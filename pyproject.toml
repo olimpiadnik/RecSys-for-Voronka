@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "video-recsys"
+version = "0.1.0"
+description = ""
+authors = ["maxim_afanasev@icloud.com <maxim_afanasev@icloud.com>"]
+readme = "README.md"
+packages = [{include = "video_recsys"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
